@@ -7,8 +7,8 @@
 
 typedef struct
 {
-	bool unlocked_frame;
-	Uint64 target_frame_time;
+    bool unlocked_frame;
+    Uint64 target_frame_time;
     TTF_Font* font;
     int x;
     int y;
