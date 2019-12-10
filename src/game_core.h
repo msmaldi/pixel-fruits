@@ -12,11 +12,11 @@
 typedef struct
 {
     bool running;
-	SDL_Window* window;
-	SDL_Renderer* renderer;
+    SDL_Window* window;
+    SDL_Renderer* renderer;
 
-	TTF_Font* font;
-	FpsComponent* fps_component;
+    TTF_Font* font;
+    FpsComponent* fps_component;
 } GameCore;
 
 void    game_core_initialize  (GameCore* game, const char* window_title);
